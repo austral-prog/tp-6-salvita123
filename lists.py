@@ -1,20 +1,14 @@
-# Replace the "ANSWER HERE" with your answer
+print(remove_elements(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
+# ['Green', 'White', 'Black']
 
-def remove_elements(list_to_remove_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+print(add_elements(['Red', 'Green', 'White', 'Black']))
+# ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
 
+print(is_empty([]))  # True
+print(is_empty(['a']))  # False
 
-def add_elements(list_to_add_elements):
-    return "ANSWER HERE"  # Remove this line and implement
+print(check_lists(['Black', 'Pink', 'Yellow'], ['Red', 'Green', 'Yellow']))  # True
+print(check_lists(['Black', 'Pink'], ['Red', 'Green', 'Yellow']))  # False
 
-
-def is_empty(list_to_check):
-    return "ANSWER HERE"  # Remove this line and implement
-
-
-def check_lists(list_to_compare1, list_to_compare2):
-    return "ANSWER HERE"  # Remove this line and implement
-
-
-def list_of_lists(list_of_lists_to_modify):
-    return "ANSWER HERE"  # Remove this line and implement
+print(list_of_lists([[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]))
+# [[1, 2], [5, 6, 7], [11, 12]]
